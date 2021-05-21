@@ -1,5 +1,5 @@
 <?php 
-    $conn = mysqli_connect('localhost', 'mack', 'Moneyball1', 'project_manager');
+    $conn = mysqli_connect('localhost', 'mack', 'project_manager');
 
     if(!$conn) {
         echo "Connection ERROR : " . mysqli_connect_error();
